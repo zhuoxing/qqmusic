@@ -1,0 +1,22 @@
+  <ion-view>
+    <ion-content  class="search" ng-controller="newCtrl">
+      <ion-header-bar>
+        <div class="title sea_input" ng-click='showBtn();' id="seaBox">
+          <i class="icon ion-ios-search sear_logo"></i>
+          <input type="text" placeholder="搜索歌曲、歌单、专辑" />
+        </div>
+        <button class="button button-clear" style="display: none" id="cancel" ng-click='hideBtn();'>取消</button>
+      </ion-header-bar>
+      <div class="sea_hot" id='hotBox'>
+        <h3>热门搜索</h3>
+        <div class="sea_result">
+          <a href="javascript:;">梦想的声音</a>
+          <a href="javascript:;">逆流成河 金南玲 </a>
+          <a href="javascript:;">GIVE YOU MY WORLD </a>
+          <a href="javascript:;">海洋奇缘 </a>
+          <a href="javascript:;">蓝色大海的传说 </a>
+          <a href="javascript:;">你就不要想起我 </a>
+        </div>
+      </div>
+    </ion-content>
+  </ion-view>
